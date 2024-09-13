@@ -1,0 +1,55 @@
+.pagar-ayc {
+  padding: 20px;
+  text-align: center;
+}
+
+.ticket {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.ticket-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.payment-options {
+  margin: 20px 0;
+}
+
+.payment-options button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.payment-options button:hover {
+  background-color: #218838;
+}
+
+.message {
+  position: relative;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 15px;
+  margin: 10px 0;
+  color: #721c24;
+}
+
+.message .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #721c24;
+}
+
+.message p {
+  margin: 0; /* Elimina el margen del texto */
+}

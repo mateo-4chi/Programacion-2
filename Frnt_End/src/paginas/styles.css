@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Fondo negro para toda la página */
+  color: #fff; /* Color de texto blanco para mejor contraste */
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #000; /* Color de fondo para el header */
+}
+
+.header-image {
+  height: 200px;
+  width: 100px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column; /* Asegura que los botones estén uno debajo del otro */
+  align-items: center; /* Centra los botones horizontalmente */
+  margin-top: 20px;
+}
+
+button {
+  background-color: #ff5722; /* Color de fondo para los botones */
+  color: #fff; /* Color de texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 15px 20px; /* Espaciado interno */
+  margin: 10px 0; /* Margen entre los botones */
+  font-size: 18px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+button:hover {
+  background-color: #e64a19; /* Cambio de color al pasar el mouse */
+}

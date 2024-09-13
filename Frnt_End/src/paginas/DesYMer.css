@@ -1,0 +1,54 @@
+h1 {
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra los elementos en la fila */
+  gap: 20px; /* Espaciado entre los elementos */
+  padding: 20px;
+}
+
+.menu-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: calc(
+    30% - 20px
+  ); /* Ajusta el ancho para que se alineen tres elementos por fila */
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+  margin: 10px; /* Margen adicional para separación */
+  max-width: 300px; /* Máximo ancho para los elementos */
+}
+
+.item-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter button {
+  margin: 0 5px;
+}
+
+.pay-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pay-button:hover {
+  background-color: #218838;
+}
+
+
